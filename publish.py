@@ -36,4 +36,4 @@ for i in range(message_number):
 while futures:
     time.sleep(5)
 
-print(f"Published messages with error handler to {topic_path}.")
+print("Published messages with error handler to {topic_path}.")
